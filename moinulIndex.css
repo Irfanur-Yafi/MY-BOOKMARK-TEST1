@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    font-size: 20px;
+}
+
+html {
+    background-color: black;
+    color: white;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    height: 99vh;
+}
+
+
+a {
+    font-family: monospace;
+    font-size: 30px;
+    padding: 30px;
+    border-radius: 40px;
+    background-color: darkblue;
+    color: cyan;
+    transition: 0.5s ease;
+    text-decoration: none;
+    outline: none;
+}
+
+a:hover {
+    background-color: white;
+    color: darkblue;
+    transition: 0.5s ease;
+    box-shadow: -1px -1px 50px 10px white;
+}
+
+a:active {
+    color: black;
+    transition: 0.1s ease-in;
+}
